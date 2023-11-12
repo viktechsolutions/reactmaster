@@ -6,7 +6,7 @@ import './Costs.css';
 
 const CostList = (props) => {
 
-  if (props.costs.length == 0) {
+  if (props.costs.length === 0) {
     return <p className="cost-list__fallback">No costs found.</p>;
   }
 
